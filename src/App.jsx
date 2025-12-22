@@ -1,5 +1,6 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import SectionTitle from "./components/SectionTitle"
 
 export default function App() {
   return (
@@ -7,9 +8,16 @@ export default function App() {
       <Navbar />
       <Hero />
 
-      <div className="p-10">
-        <h1 className="text-3xl font-bold">Konten Utama</h1>
+      {/* JUDUL KEGIATAN */}
+      <SectionTitle
+        title="Kegiatan Kementerian Koordinator Bidang Pangan"
+        subtitle="Informasi kegiatan dan program strategis dalam mendukung ketahanan pangan nasional"
+      />
+
+      {/* KONTEN KEGIATAN (ISI NANTI) */}
+      <div className="max-w-7xl mx-auto px-6 pb-20">
+        {/* card kegiatan / berita / galeri nanti di sini */}
       </div>
     </>
-  );
+  )
 }
