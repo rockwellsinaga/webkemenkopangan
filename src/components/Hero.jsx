@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto h-full px-6 flex items-center">
         <div className="max-w-2xl text-white">
           <p className="text-sm uppercase tracking-widest text-emerald-300 mb-3">
-            Kementerian Koordinator
+            Selamat Datang di Website Resmi
           </p>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
